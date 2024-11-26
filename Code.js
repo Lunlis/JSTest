@@ -1,8 +1,9 @@
-const sum = (a, b) => {
-    return a + b;
+const printSum = (a, b) => {
+    return console.log(a + b);
 };
 
 const a = 50;
 const b = 71;
 
-console.log(sum(a,b));
+
+(sum(a,b));

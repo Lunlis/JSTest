@@ -41,3 +41,30 @@ let user3 = 'John'
   , message3 = 'Hello'; // a matter of taste, shit...
 
 
+let myArray = [ `Apple`, `Orange`, `Watermelon`];
+
+myArray[0] = `Pear`;
+
+//console.log(myArray);
+
+let styles = [ `Джаз`, `Блюз` ];
+
+console.log( styles );
+
+styles.push( `Рок-н-Ролл` );
+
+console.log( styles );
+
+let test = Math.round( ( styles.length / 2 ) );
+
+//console.log( test );
+
+styles[ Math.round( ( styles.length / 2 ) ) - 1 ] = `Классика`;
+
+console.log( styles );
+
+console.log( styles.shift() );
+
+styles.unshift( `Рэп`, `Регги` );
+
+console.log( styles );
